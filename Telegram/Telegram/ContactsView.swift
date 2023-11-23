@@ -11,27 +11,25 @@ struct ContactsView: View {
     
     @State private var searchText = ""
     
-   // var chat : ChatListView
+ 
     
     var body: some View {
         
         NavigationStack {
             List {
                 
-                 /* Button("Test") {
-                    chat.Chats.append(User(UserName: "Amin", UserSurname: "ciao", UserImageName: "person.circle.fill", LastMessage: "ciao", Date: "Yesterday"))
-                } */
+                 
                 
-                Text("Amin")// Your list content here
+                Text("Amin")
             }
                  .navigationTitle("Contacts")
-            .searchable(text: $searchText) // This adds the search bar
+            .searchable(text: $searchText)
              }
 
     }
 }
 
 #Preview {
-   // let chatTest = chat
+
     ContactsView()
 }

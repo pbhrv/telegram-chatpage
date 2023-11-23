@@ -77,6 +77,7 @@ struct ChatListView: View {
                 
                 
             }
+            .accessibilityLabel("Conversations")
             .listStyle(.plain)
             .navigationTitle("Chats")
             .navigationBarItems(trailing:

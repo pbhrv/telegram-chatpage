@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		664237662B06200000CECBE2 /* chatlistviewchatgpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664237652B06200000CECBE2 /* chatlistviewchatgpt.swift */; };
 		664237682B06357D00CECBE2 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664237672B06357D00CECBE2 /* ChatListView.swift */; };
-		668218C82B0772C00044660D /* chatgpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668218C72B0772C00044660D /* chatgpt.swift */; };
 		668A450A2B0B5F12006BD3AC /* NewChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A45092B0B5F12006BD3AC /* NewChatView.swift */; };
 		668A450C2B0B6608006BD3AC /* PrivateChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A450B2B0B6608006BD3AC /* PrivateChatView.swift */; };
 		669D478E2B03833D00451B32 /* TelegramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669D478D2B03833D00451B32 /* TelegramApp.swift */; };
@@ -40,9 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		664237652B06200000CECBE2 /* chatlistviewchatgpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatlistviewchatgpt.swift; sourceTree = "<group>"; };
 		664237672B06357D00CECBE2 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
-		668218C72B0772C00044660D /* chatgpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatgpt.swift; sourceTree = "<group>"; };
 		668A45092B0B5F12006BD3AC /* NewChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatView.swift; sourceTree = "<group>"; };
 		668A450B2B0B6608006BD3AC /* PrivateChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateChatView.swift; sourceTree = "<group>"; };
 		669D478A2B03833D00451B32 /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +108,6 @@
 				664237672B06357D00CECBE2 /* ChatListView.swift */,
 				668A45092B0B5F12006BD3AC /* NewChatView.swift */,
 				668A450B2B0B6608006BD3AC /* PrivateChatView.swift */,
-				668218C72B0772C00044660D /* chatgpt.swift */,
-				664237652B06200000CECBE2 /* chatlistviewchatgpt.swift */,
 				669D47912B03833E00451B32 /* Assets.xcassets */,
 				669D47932B03833E00451B32 /* Preview Content */,
 			);
@@ -275,11 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664237662B06200000CECBE2 /* chatlistviewchatgpt.swift in Sources */,
 				664237682B06357D00CECBE2 /* ChatListView.swift in Sources */,
 				668A450A2B0B5F12006BD3AC /* NewChatView.swift in Sources */,
 				669D47B82B0391BC00451B32 /* ContactsView.swift in Sources */,
-				668218C82B0772C00044660D /* chatgpt.swift in Sources */,
 				669D47902B03833D00451B32 /* ContentView.swift in Sources */,
 				668A450C2B0B6608006BD3AC /* PrivateChatView.swift in Sources */,
 				669D478E2B03833D00451B32 /* TelegramApp.swift in Sources */,
